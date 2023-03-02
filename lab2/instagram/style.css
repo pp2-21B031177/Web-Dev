@@ -1,0 +1,234 @@
+body {
+	font-family: system-ui;
+}
+
+a {
+	color: #1877f2;
+    font-size: 12px;
+    line-height: 16px;
+    font-weight: 400;
+    cursor: pointer;
+    text-decoration: none;
+}
+.phone {
+	background-image: url(https://static.cdninstagram.com/images/instagram/xig/homepage/phones/home-phones.png?__makehaste_cache_breaker=HOgRclNOosk);
+	height: 581.15px;
+	width: 380.32px;
+	background-position: -46px 0;
+}
+.phone-image {
+	margin-left: 113px;
+	margin-top: 27px;
+	position: absolute;
+}
+.logo {
+	background-image: url(https://static.cdninstagram.com/rsrc.php/v3/y-/r/yXM3FgMdVNX.png);
+    background-position: 0px -52px;
+    background-size: auto;
+    width: 175px;
+    height: 51px;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    margin-top: 40px;
+    margin-bottom: 36px;
+}
+.block1 {
+	margin-top: 12px;
+	width: 348px;
+	border: 1px solid rgb(219, 219, 219);
+	border-radius: 1px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.input {
+    background-color: rgb(250, 250, 250);
+    width: 268px;
+    height: 36px;
+    margin: 0 auto;
+    margin-bottom: 6px;
+}
+.inputtext {
+	font-family: system-ui;
+	background: rgb(250, 250, 250);
+	color: rgb(38, 38, 38);
+    border: 1px solid rgb(219, 219, 219);
+    border-radius: 3px;
+    font-weight: normal;
+    font-size: 12px;
+    margin: 0;
+    line-height: 18px;
+    outline: none;
+    padding: 9px 0 7px 8px;
+    width: calc(100% - 9px);
+}
+.inputtext:focus {
+	border: 1px solid rgb(168, 168, 168);
+}
+.global-container {
+	width: 80%;
+	margin: 0 auto;
+	max-width: 760px;
+}
+.instagram {
+	margin-top: 32px;
+	display: flex;
+	justify-content: space-between;
+}
+.login-button {
+	width: 268px;
+	height: 32px;
+	margin: 0 auto;
+	display: block;
+	padding: 0;
+	background-color: rgb(0, 149, 246);
+	opacity: .7;
+	border: 0;
+	border-radius: 8px;
+	font-size: 14px;
+	font-family: system-ui;
+	font-weight: 600;
+	color: #fff;
+	margin-top: 14px;
+}
+.or-block {
+	width: 100%;
+	margin: 0 auto;
+	max-width: 348px;
+}
+.separator {
+	width: 268px;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 18px;
+}
+.separator span {
+   width: 100%;
+   height: 1px;
+   background: #dbdbdb;
+}
+.separator-label {
+   margin: 0 18px;
+   color: rgb(142, 142, 142);
+   font-size: .8125rem;
+   line-height: 1.1538;
+   font-weight: 600;
+   font-family: inherit;
+}
+.login-facebook {
+	width: 268px;
+	display: flex;
+	margin: 0 auto;
+	justify-content: center;
+	margin-top: 26px;
+	border: 0;
+	background: none;
+	cursor: pointer;
+	padding: 0;
+}
+.fb-logo {
+	background-image: url(https://static.cdninstagram.com/rsrc.php/v3/y5/r/TJztmXpWTmS.png);
+	background-repeat: no-repeat;
+    background-position: -414px -259px;
+    height: 16px;
+    width: 16px;
+    margin-right: 8px;
+}
+.fb-text {
+	font-family: system-ui;
+	color: #385185;
+	font-size: 14px;
+	font-weight: 600;
+	line-height: 16px;
+}
+.forgot-pass {
+	margin-top: 20px;
+	color: rgb(0, 55, 107);
+	font-size: 12px;
+	line-height: 16px;
+	margin: 0 auto;
+	text-decoration: none;
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+.block2 {
+	width: calc(100% - 2px);
+	border: 1px solid rgb(219, 219, 219);
+	border-radius: 1px;
+	padding: 10px 0;
+	margin-top: 10px;
+}
+.sign-up {
+	display: flex;
+	justify-content: center;
+	font-family: system-ui;
+	margin: 14px 0;
+}
+.sign-up-button {
+	text-decoration: none;
+	color: rgb(0, 149, 246);
+	font-weight: 600;
+	font-size: 14px;
+	line-height: 14px;
+}
+.block3 {
+	width: 350px;
+}
+.get-the-app {
+	margin-top: 20px;
+	width: 100%;
+	line-height: 18px;
+	font-weight: 400;
+	font-size: 14px;
+	color: rgb(38, 38, 38);
+	text-align: center;
+}
+.get-it-from {
+	display: flex;
+	flex-direction: row;
+    justify-content: center;
+    margin: 20px 0 10px 0;
+}
+.img1 {
+	height: 40px;
+	margin-right: 10px;
+}
+.img2 {
+	height: 40px;
+}
+.ul-links {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	font-family: system-ui;
+    list-style-type: none;
+    padding: 0;
+    color: rgb(142, 142, 142);
+    width: 100%;
+}
+li {
+	margin-left: 16px;
+}
+li>a {
+	color: #737373;
+}
+.links {
+	width: 120%;
+	margin-left: -10%;
+	margin-top: 32px;
+	margin-bottom: 68px;
+}
+select {
+	cursor: pointer;
+    font-family: system-ui;
+    font-size: 12px;
+    background-color: #fff;
+    border: none;
+    color: rgb(142, 142, 142);
+    appearance: none;
+    width: 53.63px;
+    text-align: center;
+}
+select:focus {
+	outline: none;
+}

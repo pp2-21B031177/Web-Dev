@@ -1,0 +1,238 @@
+body {
+	line-height: 1.34;
+	background: #F0F2F5;
+	direction: ltr;
+	margin: 0;
+	padding: 0;
+}
+a {
+	color: #1877f2;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+    text-decoration: none;
+}
+.fb_logo {
+	margin: -28px;
+	height: 106px;
+}
+.info_block {
+	display: inline-block;
+	vertical-align: top;
+	width: 500px;
+	padding-right: 32px;
+}
+.info {
+	padding-top: 112px;
+	padding-bottom: 16px;
+	width: 500px;
+}
+.info_text {
+	font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+	font-weight: normal;
+	font-size: 28px;
+    line-height: 32px;
+    width: auto;
+    margin:  0;
+    padding-bottom: 20px;
+}
+.content {
+	display: flex;
+	justify-content: space-between;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.block {
+	padding-top: 72px;
+	padding-bottom: 112px;
+}
+.login {
+	display: inline-block;
+}
+.buttons_block {
+	margin-top: 40px;
+	padding: 10px 0px 24px;
+	background-color: #fff;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+    box-sizing: border-box;
+    margin: 40px 0 0;
+    width: 396px;
+    text-align: center;
+}
+.input {
+	padding: 6px 0;
+	font-size: 17px;
+    display: inline-block;
+    margin: auto;
+    text-align: center;
+}
+.inputtext {
+	border-radius: 6px;
+	font-size: 17px;
+    padding: 14px 16px;
+    width: 330px;
+    border: 1px solid #dddfe2;
+    color: #1d2129;
+    height: 22px;
+    line-height: 16px;
+    vertical-align: middle;
+    -webkit-appearance: none;
+    margin: 0;
+    writing-mode: horizontal-tb !important;
+    text-rendering: auto;
+    etter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    -webkit-rtl-ordering: logical;
+    cursor: text;
+}
+.inputtext:focus {
+	border: 1px solid #1877F2;
+	outline: none;
+}
+.login_button_block {
+	padding-top: 6px;
+	text-align: center;
+}
+.login_button {
+	background-color: #1877f2;
+    border: none;
+    border-radius: 6px;
+    font-size: 20px;
+    line-height: 48px;
+    padding: 0 16px;
+    width: 332px;
+    color:  #fff;
+    transition: 200ms cubic-bezier(.08,.52,.52,1) background-color, 200ms cubic-bezier(.08,.52,.52,1) box-shadow, 200ms cubic-bezier(.08,.52,.52,1) transform;
+    box-sizing: content-box;
+    -webkit-font-smoothing: antialiased;
+    font-weight: bold;
+    position: relative;
+    text-align: center;
+    text-shadow: none;
+    vertical-align: middle;
+    cursor: pointer;
+    display: inline-block;
+    text-decoration: none;
+    white-space: nowrap;
+    margin: 0;
+    appearance: auto;
+    writing-mode: horizontal-tb !important;
+    text-rendering: auto;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+}
+.forgot_password {
+	font-family: inherit;
+	margin-top: 16px;
+	text-align: center;
+	font-family: Helvetica, Arial, sans-serif;
+}
+.line {
+	align-items: center;
+    border-bottom: 1px solid #dadde1;
+    display: flex;
+    margin: 20px 16px;
+    text-align: center;
+}
+.create_account_button_block {
+	padding-top: 6px;
+	text-align: center;
+	font-size: 12px;
+}
+.create_account_button {
+	border: none;
+    border-radius: 6px;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 17px;
+    line-height: 48px;
+    padding: 0 16px;
+    background-color: #42b72a;
+    color: #fff;
+    transition: 200ms cubic-bezier(.08,.52,.52,1) background-color, 200ms cubic-bezier(.08,.52,.52,1) box-shadow, 200ms cubic-bezier(.08,.52,.52,1) transform;
+    box-sizing: content-box;
+    -webkit-font-smoothing: antialiased;
+    font-weight: bold;
+    position: relative;
+    text-align: center;
+    text-shadow: none;
+    vertical-align: middle;
+    cursor: pointer;
+    display: inline-block;
+    text-decoration: none;
+    white-space: nowrap;
+}
+.info_text2 {
+	border-top: none;
+    color: #1c1e21;
+    font-family: SFProText-Regular, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    padding-top: 0;
+    margin-top: 28px;
+    text-align: center;
+}
+#create_page {
+	font-family: SFProText-Semibold, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    color: #000;
+}
+.links_content {
+	padding-top: 20px;
+}
+.links_block, .ul_settings {
+	width: auto;
+	font-family: Helvetica, Arial, sans-serif;
+    font-size: 12px;
+}
+.ul_languages {
+	padding-top: 8px;
+	align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    color: #737373;
+    font-family: inherit;
+    margin-left: -15px;
+}
+li {
+	padding-left: 15px;
+}
+li>a {
+	color: #737373;
+}
+.contentCurve {
+	border-bottom: 1px solid #dddfe2;
+    font-size: 1px;
+    height: 8px;
+    margin-bottom: 8px;
+}
+.wrapper {
+	margin: 0 auto;
+	max-width: 960px;
+}
+#meta {
+	font-size: 11px;
+	color: #737373;
+	font-family: Helvetica, Arial, sans-serif;
+	font-weight: normal;
+}
+.meta1 {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
