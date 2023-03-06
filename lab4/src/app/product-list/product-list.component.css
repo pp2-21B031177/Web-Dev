@@ -1,0 +1,14 @@
+.products {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+}
+.product {
+    margin: 5px;
+    padding-left: 50px;
+    border: 1px solid black;
+}
+/*
+Copyright Google LLC. All Rights Reserved.
+Use of this source code is governed by an MIT-style license that
+can be found in the LICENSE file at https://angular.io/license
+*/
