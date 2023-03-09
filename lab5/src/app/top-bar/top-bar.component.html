@@ -1,0 +1,12 @@
+<a [routerLink]="['/']">
+  <h1>My Store</h1>
+</a>
+<div>
+  <ul style="display: flex; flex-wrap: wrap; list-style-type: none;">
+    <li><a class="category" (click)="showCategory('phone')">Phones</a></li>
+    <li><a class="category" (click)="showCategory('laptop')">Laptops</a></li>
+    <li><a class="category" (click)="showCategory('clothes')">Clothes</a></li>
+    <li><a class="category" (click)="showCategory('furniture')">Furniture</a></li>
+  </ul>
+</div>
+<a class="button fancy-button"><i class="material-icons">shopping_cart</i>Checkout</a>

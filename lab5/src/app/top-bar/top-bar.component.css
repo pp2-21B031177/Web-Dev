@@ -1,0 +1,7 @@
+.category {
+    margin-left: 25px;
+    color: #fff;
+}
+.category:hover {
+    border-bottom: 2px solid #fff;
+}

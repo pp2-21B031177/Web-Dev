@@ -1,0 +1,33 @@
+<app-top-bar (category)="changeCategory($event)"></app-top-bar>
+<h2>Products</h2>
+<div class="products">
+    <div #productBlock *ngFor="let product of products" class="block">
+        <div *ngIf="product.category == category">
+            <div class="product">
+                <h3>
+                    <div style="height: 250px;"><img [src]="product.image" class="image"></div>
+                    <div style="height: 90px;">
+                        <a [title]="product.name + ' details'">
+                            {{ product.name }}
+                        </a>
+                        <p *ngIf="product.description">
+                            {{ product.description }}
+                        </p>
+                    </div>
+                    <div class="buttons">
+                        <button (click)="share(product)">
+                            Share
+                        </button>
+                        <button (click)="delete(productBlock)" style="margin-left: 100px;">
+                            Delete
+                        </button>
+                        <button #likeBtn (click)="toggleLike(product, likeBtn)" class="notLiked">
+                            <img src="https://www.freepnglogos.com/uploads/heart-png/emoji-heart-33.png" style="width: 24px; margin-right: 5px;">
+                            {{product.likes}}
+                        </button>
+                    </div>
+                </h3>
+            </div>
+        </div>
+    </div>
+</div>
