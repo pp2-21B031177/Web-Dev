@@ -8,29 +8,18 @@ import { Product, products } from '../products';
   styleUrls: ['./product-list.component.css']
 })
 export class ProductListComponent {
-  products = products;
+  products = [...products];
   category = 'laptop';
 
-  share(product: Product) {
-    window.location.href = `https://telegram.me/share/url?url=${product.link}`;
-    window.open("https://www.google.com", "_blank");
-  }
   changeCategory(type: string) {
     this.category = type;
   }
-  delete(el: HTMLElement) {
-    el.remove();
+  getFilterCategory() {
+    return this.products.filter(product => product.category == this.category);
   }
-  toggleLike(product: Product, el:HTMLElement) {
-    if(el.classList.contains('notLiked')) {
-      el.classList.remove('notLiked');
-      el.classList.add('liked');
-      product.likes++;
-    }
-    else {
-      el.classList.remove('liked');
-      el.classList.add('notLiked');
-      product.likes--;
-    }
+  deleteProduct(product: Product) {
+    const x:number = 5;
+    console.log(product);
+    this.products = this.products.filter(p => p.id != product.id);
   }
 }

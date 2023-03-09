@@ -1,29 +1,6 @@
 .products {
     display: grid;
-    grid-template-columns: 33% 33% 33%;
-}
-.product {
-    margin: 5px;
-    padding-left: 50px;
-    border: 1px solid black;
-    height: 420px;
-}
-.buttons {
-    display: flex;
-}
-.notLiked {
-    padding: 0 5px;
-    margin-left: 15px;
-    background-color: #FFF;
-    border: 2px solid #1976d2;
-    border-radius: 5px;
-    color: #000;
-}
-.liked {
-    padding: 0 5px;
-    margin-left: 15px;
-    background-color: #1976d2;
-    border: 2px solid #1976d2;
-    border-radius: 5px;
-    color: #000;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 5px;
+    column-gap: 5px;
 }
