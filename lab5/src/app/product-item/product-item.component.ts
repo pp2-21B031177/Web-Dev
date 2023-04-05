@@ -17,6 +17,7 @@ export class ProductItemComponent {
     likes: 5,
     isLiked: false
   };
+  
   @Output() deleteEmitter = new EventEmitter<any>();
 
   share(product: Product) {

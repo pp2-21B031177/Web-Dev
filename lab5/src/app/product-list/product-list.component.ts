@@ -19,7 +19,6 @@ export class ProductListComponent {
   }
   deleteProduct(product: Product) {
     const x:number = 5;
-    console.log(product);
     this.products = this.products.filter(p => p.id != product.id);
   }
 }

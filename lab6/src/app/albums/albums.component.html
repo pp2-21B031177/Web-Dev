@@ -1,0 +1,6 @@
+<div *ngFor="let obj of response">
+    <div>
+        <span>{{obj.id}}</span>
+        <button [routerLink]="['/albums', obj.id]">Details</button>
+    </div>
+</div>
