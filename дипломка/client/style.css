@@ -1,0 +1,106 @@
+html {
+	margin: 0;
+	height: 100%;
+	font-family: 'Anuphan', sans-serif;
+}
+button, input, a {
+	font-family: inherit;
+}
+body {
+	margin: 0;
+	height: 100%;
+}
+.bg {
+	padding-top: 45px;
+	height: calc(100% - 45px);
+	background-image: url("building.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.input {
+	padding: 6px 0;
+	font-size: 17px;
+    text-align: center;
+    width: 100%;
+}
+.inputtext {
+	width: 80%;
+	border-radius: 6px;
+	font-size: 17px;
+    padding: 14px 16px;
+    border: 1px solid #dddfe2;
+    color: #1d2129;
+    height: 22px;
+    line-height: 16px;
+}
+.inputtext:focus {
+	border: 1px solid #1877F2;
+	outline: none;
+}
+.login-block {
+	margin: 0 auto;
+	width: 30%;
+	background-color: rgba(255, 255, 255, 0.5);
+	border: 2px solid rgba(0, 0, 0, 0.8);
+	border-radius: 10px;
+}
+.btn {
+	margin-top: 25px;
+	width: 100%;
+}
+#login-button {
+	text-align: center;
+	margin: 0 6%;
+	width: 88%;
+	background-color: #773C20;
+    border: none;
+    border-radius: 6px;
+    font-size: 20px;
+    line-height: 48px;
+    padding: 0 16px;
+    color: #fff;
+    cursor: pointer;
+}
+.logo {
+	margin: 25px 0;
+	display: flex;
+	width: 100%;
+	justify-content: center;
+}
+.no-acc {
+	font-family: inherit;
+	margin-top: 16px;
+	text-align: center;
+}
+a {
+	color: #000;
+    font-size: 14px;
+    font-weight: 500;
+    font-weight: 600;
+    cursor: pointer;
+    text-decoration: none;
+}
+.line {
+	align-items: center;
+    border-bottom: 2px solid rgba(0, 0, 0, .5);
+    display: flex;
+    margin: 20px 16px;
+    text-align: center;
+}
+.create-acc {
+	padding-top: 6px;
+	text-align: center;
+	font-size: 12px;
+	width: 100%;
+	padding-bottom: 20px;
+}
+.create-acc-button {
+	width: 88%;
+	border: none;
+    border-radius: 6px;
+    font-size: 17px;
+    line-height: 48px;
+    padding: 0 16px;
+    background-color: #BE9F7B;
+    cursor: pointer;
+}

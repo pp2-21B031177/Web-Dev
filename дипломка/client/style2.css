@@ -1,0 +1,50 @@
+html {
+	margin: 0;
+	height: 100%;
+	font-family: 'Anuphan', sans-serif;
+}
+button, input, a {
+    font-family: inherit;
+}
+.block {
+    border: 3px solid #000;
+    border-radius: 5px;
+    width: 30%;
+}
+.input {
+	padding: 6px 0;
+	font-size: 17px;
+    text-align: center;
+    width: 100%;
+}
+.inputtext {
+	width: 80%;
+	border-radius: 6px;
+	font-size: 17px;
+    padding: 14px 16px;
+    border: 1px solid #dddfe2;
+    color: #1d2129;
+    height: 22px;
+    line-height: 16px;
+}
+.inputtext:focus, .inputtextsmall:focus {
+	border: 1px solid #1877F2;
+	outline: none;
+}
+.inputtextsmall {
+	width: 60%;
+	border-radius: 6px;
+	font-size: 17px;
+    padding: 14px 16px;
+    border: 1px solid #dddfe2;
+    color: #1d2129;
+    height: 22px;
+    line-height: 16px;
+}
+#create {
+    font-weight: 500;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    margin: 10px 0
+}
