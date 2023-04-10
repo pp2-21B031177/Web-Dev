@@ -32,7 +32,7 @@ function getUserByEmail(username) {
 
 function getAllUsers() {
   return new Promise((resolve, reject) => {
-    db.get("SELECT * FROM users", (err, row) => {
+    db.all("SELECT * FROM users", (err, row) => {
       if (err) {
         reject(err);
       } else {
@@ -41,7 +41,6 @@ function getAllUsers() {
     });
   });
 }
-
 
 exports.init = init
 exports.db = db

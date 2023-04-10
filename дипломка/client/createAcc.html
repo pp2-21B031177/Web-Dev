@@ -12,21 +12,28 @@
 </head>
 <body>
 	<div class="block">
+		<div class="logo">
+			<img src="logo.png">
+		</div>
 		<span id="create">Create a new account</span>
-		<div style="display: flex;">
+		<div style="display: flex; justify-content: space-between;">
 			<div class="input">
-				<input type="input" name="email" class="inputtextsmall" placeholder="First name">
+				<input type="input" name="firstName" class="inputtextsmall" placeholder="First name">
 			</div>
 			<div class="input">
-				<input type="input" name="email" class="inputtextsmall" placeholder="Last name">
+				<input type="input" name="lastName" class="inputtextsmall" placeholder="Last name">
 			</div>
 		</div>
 		<div class="input">
 			<input type="input" name="email" class="inputtext" placeholder="Email">
 		</div>
 		<div class="input">
-			<input type="input" name="email" class="inputtext" placeholder="Password">
+			<input type="password" name="password" class="inputtext" placeholder="Password">
+		</div>
+		<div class="create-acc">
+			<button class="create-acc-button">Register</button>
 		</div>
 	</div>
+	<script src="script2.js"></script>
 </body>
 </html>

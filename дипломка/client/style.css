@@ -34,7 +34,7 @@ body {
     line-height: 16px;
 }
 .inputtext:focus {
-	border: 1px solid #1877F2;
+	border: 1px solid #BE9F7B;
 	outline: none;
 }
 .login-block {

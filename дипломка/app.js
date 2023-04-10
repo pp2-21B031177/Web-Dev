@@ -17,8 +17,14 @@ app.get("/api", (req, res) => {
 
 // Роут для регистрации нового пользователя
 app.post("/api/register", async (req, res) => {
+  console.log("post request sent");
   const { email, password } = req.body;
   try {
+    // Проверка существует ли пользователь
+    const user = await getUserByEmail(email);
+    if(user) {
+      return res.status(400).send("Такой пользователь существует"); 
+    }
     // Хэшируем пароль перед сохранением в базу данных
     const hashedPassword = await bcrypt.hash(password, 10);
 

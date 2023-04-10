@@ -3,13 +3,19 @@ html {
 	height: 100%;
 	font-family: 'Anuphan', sans-serif;
 }
+body {
+    background-color: #BE9F7B;
+}
 button, input, a {
     font-family: inherit;
 }
 .block {
-    border: 3px solid #000;
-    border-radius: 5px;
+    border: 2px solid rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
     width: 30%;
+    margin: 0 auto;
+    margin-top: 70px;
+    background-color: #fff;
 }
 .input {
 	padding: 6px 0;
@@ -28,7 +34,7 @@ button, input, a {
     line-height: 16px;
 }
 .inputtext:focus, .inputtextsmall:focus {
-	border: 1px solid #1877F2;
+	border: 1px solid #BE9F7B;
 	outline: none;
 }
 .inputtextsmall {
@@ -47,4 +53,27 @@ button, input, a {
     display: flex;
     justify-content: center;
     margin: 10px 0
+}
+.create-acc {
+	padding-top: 6px;
+	text-align: center;
+	font-size: 12px;
+	width: 100%;
+	padding-bottom: 20px;
+}
+.create-acc-button {
+	width: 88%;
+	border: none;
+    border-radius: 6px;
+    font-size: 17px;
+    line-height: 48px;
+    padding: 0 16px;
+    background-color: #773C20;
+    cursor: pointer;
+}
+.logo {
+	margin: 25px 0;
+	display: flex;
+	width: 100%;
+	justify-content: center;
 }
