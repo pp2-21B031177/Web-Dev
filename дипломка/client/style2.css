@@ -4,7 +4,8 @@ html {
 	font-family: 'Anuphan', sans-serif;
 }
 body {
-    background-color: #BE9F7B;
+    margin: 0;
+    height: 100%;
 }
 button, input, a {
     font-family: inherit;
@@ -14,8 +15,15 @@ button, input, a {
     border-radius: 10px;
     width: 30%;
     margin: 0 auto;
-    margin-top: 70px;
-    background-color: #fff;
+    background-color: rgba(255, 255, 255, 0.6);
+}
+.bg {
+	padding-top: 45px;
+	height: calc(100% - 45px);
+	background-image: url("building2.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+    background-position: center;
 }
 .input {
 	padding: 6px 0;

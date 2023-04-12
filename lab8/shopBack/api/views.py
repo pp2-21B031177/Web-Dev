@@ -52,7 +52,7 @@ def products(req):
     return HttpResponse(render_products(products))
 
 
-def productsItem(req, id):
+def productsItem(req, id):  
     product = get_object_or_404(Product, id=id)
     return HttpResponse(render_product(product))
 

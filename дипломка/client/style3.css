@@ -1,0 +1,58 @@
+html {
+	margin: 0;
+	height: 100%;
+	font-family: 'Anuphan', sans-serif;
+}
+body {
+    margin: 0;
+    height: 100%;
+}
+button, input, a, ul, li {
+    font-family: inherit;
+}
+.global-container {
+    width: 100%;
+    margin: 0 auto;
+}
+header {
+    display: flex;
+    width: 100%;
+    padding: 10px 0;
+    padding-left: 25px;
+    background-color: #8A2BE2;
+}
+.ul-header {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    list-style-type: none;
+    width: 100%;
+    justify-content: space-evenly;
+}
+.ul-element {
+    font-size: 18px;
+    font-weight: 500;
+    color: #fff;
+    cursor: pointer;
+    margin: auto;
+}
+.selected {
+    background-color: #483D8B;
+    padding: 0 10px;
+    border-radius: 15px;
+}
+.logo {
+    height: 61px;
+    cursor: pointer;
+}
+.find-tours {
+    background-color: #fff;   
+}
+.find-tours-img {
+    padding: 16px 10px 16px 66px;
+    font-size: 16px;
+    background-repeat: no-repeat;
+    background: url(find-tours.png);
+    background-size: 26px;
+    background-position: 30px center;
+}
