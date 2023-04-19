@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>editVacancy</title>
+</head>
+<body>
+    <form method="POST">
+        {% csrf_token %}
+        <p>
+            <label>Vacancy name</label><br>
+            <input type="text" name="name" />
+        </p>
+        <p>
+            <label>Vacancy description</label><br>
+            <input type="text" name="description" />
+        </p>
+        <p>
+            <label>Vacancy salary</label><br>
+            <input type="number" name="salary" />
+        </p>
+        <p>
+            <label>Vacancy company id</label><br>
+            <input type="number" name="companyId" />
+        </p>
+        <input type="submit" value="Save" >
+    </form>
+</body>
+</html>

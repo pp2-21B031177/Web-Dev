@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>editCompany</title>
+</head>
+<body>
+    <form method="POST">
+        {% csrf_token %}
+        <p>
+            <label>Company name</label><br>
+            <input type="text" name="name" />
+        </p>
+        <p>
+            <label>Company description</label><br>
+            <input type="text" name="description" />
+        </p>
+        <p>
+            <label>Company city</label><br>
+            <input type="text" name="city" />
+        </p>
+        <p>
+            <label>Company address</label><br>
+            <input type="text" name="address" />
+        </p>
+        <input type="submit" value="Save" >
+    </form>
+</body>
+</html>

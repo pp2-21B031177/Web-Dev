@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>vacancies</title>
+</head>
+<body>
+    <form method="POST" action="create/">
+        {% csrf_token %}
+        <p>
+            <label>Vacancy name</label><br>
+            <input type="text" name="name" />
+        </p>
+        <p>
+            <label>Vacancy description</label><br>
+            <input type="text" name="description" />
+        </p>
+        <p>
+            <label>Vacancy salary</label><br>
+            <input type="number" name="salary" />
+        </p>
+        <p>
+            <label>Vacancy company id</label><br>
+            <input type="number" name="companyId" />
+        </p>
+        <input type="submit" value="Save" >
+    </form>
+    {% if vacancies.count > 0 %}
+    <h2>List of vacancies</h2>
+    <table>
+        <thead><th>Id</th><th>name</th><th>description</th><th></th></thead>
+        {% for vacancy in vacancies %}
+        <tr>
+            <td>{{ vacancy.id }}</td>
+            <td>{{ vacancy.name }}</td>
+            <td>{{ vacancy.description }}</td>
+            <td><a href="/api/vacancies/edit/{{vacancy.id}}">Edit</a> | <a href="/api/vacancies/delete/{{vacancy.id}}">Delete</a> | <a href="/api/vacancies/{{vacancy.id}}">Info</a></td>
+        </tr>
+        {% endfor %}
+    </table>
+    {% endif %}
+</body>
+</html>
